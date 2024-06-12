@@ -31,6 +31,8 @@ git clone https://github.com/astaka-pe/Dual-DMP
 cd Dual-DMP
 conda env create -f environment.yml
 conda activate ddmp
+
+for pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.8.0+cu111.html
 ```
 
 ### 2. Preparation
